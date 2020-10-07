@@ -1,4 +1,4 @@
-name: btrfs-snap
+name: btrfs-progs
 version: '0.1.0'
 base: core20
 summary: btrfs tools
