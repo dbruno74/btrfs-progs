@@ -1,4 +1,4 @@
-# btrfs-snap
+# btrfs-progs
 A snap for btrfs tools
 
 ## Install
