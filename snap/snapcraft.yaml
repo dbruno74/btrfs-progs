@@ -1,0 +1,25 @@
+name: btrfs-snap
+version: '0.1.0'
+base: core20
+summary: btrfs tools
+description: |
+  A snap for btrfs tools  
+
+confinement: devmode
+grade: devel
+
+architectures:
+   - build-on: armhf
+     run-on: armhf
+
+apps:
+  btrfs:
+    command: bin/btrfs
+    plugs:
+      - removable-media
+      - mount-observe
+parts:
+  btrfs-tools:
+    plugin: nil
+    stage-packages:
+      - btrfs-progs
