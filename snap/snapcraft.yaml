@@ -6,7 +6,7 @@ description: |
   A snap for btrfs tools  
 
 confinement: devmode
-grade: devel
+grade: stable
 
 architectures:
    - build-on: armhf
