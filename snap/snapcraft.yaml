@@ -5,7 +5,7 @@ summary: btrfs tools
 description: |
   A snap for btrfs tools  
 
-confinement: stable
+confinement: strict
 grade: stable
 
 architectures:
