@@ -1,5 +1,5 @@
 name: btrfs-progs
-version: '0.3.0'
+version: '0.5.0'
 base: core20
 summary: btrfs tools
 description: |
