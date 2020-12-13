@@ -1,5 +1,5 @@
 name: btrfs-progs
-version: '0.5.0'
+version: '0.6.0'
 base: core20
 summary: btrfs tools
 description: |
@@ -7,10 +7,6 @@ description: |
 
 confinement: strict
 grade: stable
-
-architectures:
-   - build-on: armhf
-     run-on: armhf
 
 apps:
   btrfs:
